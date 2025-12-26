@@ -1,4 +1,4 @@
-# Neuro-symbolic-disease-prediction
+# Neuro-symbolic disease prediction
 This repository contains the implementation of a framework that combines neural and symbolic reasoning components using an attention-based fusion mechanism, enabling effective linkage between unstructured clinical narratives and structured medical knowledge. This design supports interpretable and reliable clinical decision-support modeling.
 # Project Title
 Neuro-Symbolic Disease Prediction Framework
@@ -7,10 +7,10 @@ Neuro-Symbolic Disease Prediction Framework
 This repository contains a neuro-symbolic framework for disease prediction using emulated electronic medical records (EMRs). The approach integrates structured medical knowledge with contextual language representations to support interpretable clinical modeling.
 
 ## Dataset Information
-- Type: Emulated / synthetic clinical records
+- Type: Electronic Health Records/ clinical records
 - Content: Symptom-level textual descriptions and associated labels
-- Nature: Self-curated dataset (synthetic)
-- Availability: See Dataset section below
+- Availability: Kaggle Repository
+- Link: https://www.kaggle.com/datasets/davidvictor297/electronic-medical-records-emr
 
 ## Code Information
 - Programming language: Python
@@ -44,7 +44,9 @@ The proposed methodology is evaluated using comparative analysis with baseline m
 
 ## Citations
 [1]Singhal, K., et al. (2023). Large language models encode clinical knowledge. Nature, 620(7972), 172–180. https://doi.org/10.1038/s41586-023-06291-2
+
 [2]Zhang, X., et al. (2024). Development and evaluation of a neuro-symbolic NLP pipeline for automated clinical trial eligibility screening. Journal of the American Medical Informatics Association, 31(8), 1642–1651. https://doi.org/10.1093/jamia/ocae124
+
 [3]Prenosil, G. A., et al. (2024). Neuro-symbolic AI for auditable cognitive information extraction from medical reports. Scientific Reports, 14(1), 26145. https://doi.org/10.1038/s41598-024-77535-y
 
 ## License
