@@ -14,10 +14,17 @@ This repository contains a neuro-symbolic framework for disease prediction using
 
 ## Dataset Organization
 The dataset used in this study is a self-curated synthetic dataset designed to emulate clinical records. The data are organized into separate directories for input samples and corresponding labels to support reproducible experimentation.
-datasets/
-├── synthetic_emr/
-│   ├── text_records/
-│   └── labels/
+## Dataset Structure
+
+The dataset is organized to reflect the data processing pipeline. Raw EMR data are stored separately from processed text and extracted symptom representations to support reproducibility.
+
+dataset/
+├── raw/
+│   └── emr_data.csv
+├── processed/
+│   └── cleaned_emr_data.csv
+└── symptoms/
+    └── extracted_symptoms.csv
 
 ## Code Information
 - Programming language: Python
