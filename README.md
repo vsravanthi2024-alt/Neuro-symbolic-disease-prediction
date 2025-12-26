@@ -21,9 +21,9 @@ The dataset is organized to reflect the data processing pipeline. Raw EMR data a
 dataset/ 
 
 ├── raw/
+
    └── emr_data.csv
 |
-
 ├── processed/
    └── cleaned_emr_data.csv
 |
