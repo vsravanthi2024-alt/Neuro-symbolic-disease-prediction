@@ -18,21 +18,14 @@ The dataset used in this study is a self-curated synthetic dataset designed to e
 
 The dataset is organized to reflect the data processing pipeline. Raw EMR data are stored separately from processed text and extracted symptom representations to support reproducibility.
 
-dataset
-  ↓
-1.raw data
+dataset/
+├── raw/
+│   └── emr_data.csv
+├── processed/
+│   └── cleaned_emr_data.csv
+└── symptoms/
+    └── extracted_symptoms.csv
 
-        emr_data.csv
-    
-2.processed
-  
-        cleaned_emr_data.csv
-        
-3.symptoms
-  
-        extracted_symptoms.csv
-
-    
 
 ## Code Information
 - Programming language: Python
